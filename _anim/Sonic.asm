@@ -45,7 +45,7 @@ SonAni_Warp1:	dc.b $3F, $33, $FF, 0
 SonAni_Warp2:	dc.b $3F, $34, $FF, 0
 SonAni_Warp3:	dc.b $3F, $35, $FF, 0
 SonAni_Warp4:	dc.b $3F, $36, $FF, 0
-SonAni_Stop:	dc.b 7,	$37, $38, $FF
+SonAni_Stop:	dc.b 7, $37, $38, $59,$59,$59,$59,$59,$59,$59,$59,$59,$59,$59,$59, $FF
 SonAni_Float1:	dc.b 7,	$3C, $3F, $FF
 SonAni_Float2:	dc.b 7,	$3C, $3D, $53, $3E, $54, $FF, 0
 SonAni_Spring:	dc.b $2F, $40, $FD, 0
